@@ -8,5 +8,4 @@ def read_csv_file():
     weight = df["Weight(Pounds)"].mean()
     height_sm = height * 2.54
     weight_kg = weight * 0.453592
-    print(f'Average height of people: {height_sm} sm')
-    print(f'Average weight of people: {weight_kg} kg')
+    return height_sm, weight_kg
